@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    /* border: 2px red solid; */
+}
+html{
+    height: 100%;
+}
+body{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* cal body */
+
+#calBody{
+    height: 476px;
+    width: 320px;
+    background-color: #AAABAB;
+    border-radius: 8px;
+
+}
+
+
+/* screen */
+#calScreen{
+    width: 280px;
+    height: 60px;
+    margin:20px auto;
+    background-color: #EEEFEF;
+}
+/* clearButtons */
+#clearButtons{
+    width: 280px;
+    height: 60px;
+    display: flex;
+    margin:10px 20px;
+    gap: 10px;
+    justify-content: space-around;
+}
+#clearButtons>button{
+    flex: 1;
+    border-radius: 8px;
+}
+#clearButtons #clear{
+    background-color: #FFAAAA;
+}
+#clearButtons #delete{
+    background-color: #ABAAFE;
+} 
+
+/* buttonLayer */
+#buttons{
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    align-items: center;
+}
+
+.buttonLayer{
+    display: flex;
+}
+
+
+/* button */
+.buttonLayer > button{
+    width: 56px;
+    height: 56px;
+    margin: 10px;
+    border-radius: 26px;
+}
