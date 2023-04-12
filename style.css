@@ -29,6 +29,18 @@ body{
     height: 60px;
     margin:20px auto;
     background-color: #EEEFEF;
+    display: flex;
+    flex-direction: column;
+}
+#calScreen > #resultDiv{
+    font-size: 28px;
+    /* border: 2px black solid; */
+    margin-right: auto;
+
+}
+#calScreen > #calDiv{
+    /* border: 2px red solid; */
+    margin-left: auto;
 }
 /* clearButtons */
 #clearButtons{
@@ -44,10 +56,10 @@ body{
     border-radius: 8px;
 }
 #clearButtons #clear{
-    background-color: #FFAAAA;
+    background-color: rgb(255,170,170);
 }
 #clearButtons #delete{
-    background-color: #ABAAFE;
+    background-color: rgb(171,170,254);
 } 
 
 /* buttonLayer */
@@ -69,4 +81,5 @@ body{
     height: 56px;
     margin: 10px;
     border-radius: 26px;
+    background-color: rgb(239,239,239);
 }
